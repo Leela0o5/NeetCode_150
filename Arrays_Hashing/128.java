@@ -1,4 +1,7 @@
 package Arrays_Hashing;
+
+import java.util.HashSet;
+
 class Solution {
     public int longestConsecutive(int[] nums) {
         HashSet<Integer> map = new HashSet<>();
